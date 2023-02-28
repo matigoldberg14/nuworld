@@ -1,0 +1,60 @@
+{
+    "header": [
+        {
+            "id": 0,
+            "icon": "Opensea",
+            "link": "https://opensea.io/es/collection/nu-world-free-mint"
+        },
+        {
+            "id": 1,
+            "icon": "Twitter",
+            "link": "https://twitter.com/NUWD_NFT"
+        },
+        {
+            "id": 2,
+            "icon": "Instagram",
+            "link": "https://www.instagram.com/nuwd_nft/?hl=es"
+        },
+        {
+            "id": 3,
+            "icon": "Discord",
+            "link": "https://discord.gg/E4jSG2t6wF"
+        }
+    ],
+
+    "openLetter": [
+        {
+            "id": 0,
+            "icon": "Twitter",
+            "link": "https://twitter.com/NUWD_NFT"
+        },
+        {
+            "id": 1,
+            "icon": "Instagram",
+            "link": "https://www.instagram.com/nuwd_nft/?hl=es"
+        },
+        {
+            "id": 2,
+            "icon": "Discord",
+            "link": "https://discord.gg/E4jSG2t6wF"
+        }
+    ],
+
+    "footer": [
+        {
+            "id": 0,
+            "icon": "Twitter",
+            "link": "https://twitter.com/NUWD_NFT"
+        },
+        {
+            "id": 1,
+            "icon": "Instagram",
+            "link": "https://www.instagram.com/nuwd_nft/?hl=es"
+        },
+        {
+            "id": 2,
+            "icon": "Discord",
+            "link": "https://discord.gg/E4jSG2t6wF"
+        }
+    ]
+}

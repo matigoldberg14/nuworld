@@ -1,0 +1,24 @@
+.icon-img {
+    border-radius: 50px;
+    background-color: black;
+}
+
+.icon-img:hover {
+    border-radius: 100%;
+    background-color: #45bee7;
+}
+
+.app-icon-title {
+    width: 100%;
+    height: 100%;
+    padding: 25%;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    font-size: 1.875vw;
+    text-decoration: none;
+}
+
+.app-icon-title:hover {
+    color: #45bee7;
+}

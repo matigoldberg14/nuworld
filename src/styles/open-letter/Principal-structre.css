@@ -1,0 +1,267 @@
+@media screen and (min-width: 769px) {
+    .structre-description {
+        width: 80%;
+        height: 100%;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .nekevah {
+        width: 28%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .structre-img {
+        display: flex;
+        margin-top: -27%;
+        margin-left: -11%;
+    }
+
+    .nekevah-icons {
+        width: 60%;
+        height: 100%;
+        padding: 0;
+        margin-top: 10%;
+        margin-left: -11%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon-link-ps {
+        width: 20.43%;
+        margin-left: 5%;
+        line-height: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .structre-general {
+        width: 72%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .structre-title {
+        width: 85%;
+        height: 20%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .structre-title-subs {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        color: rgba(256, 256, 256, 0.8);
+        font-size: 1.09375vw;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .text {
+        margin: 0.2%;
+        padding: 0;
+    }
+
+    .structre-img-icon {
+        width: 100%;
+        height: 100%;
+    }
+
+    .structre-subtitle {
+        width: 100%;
+        height: 80%;
+        margin-top: 2%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .text-structre {
+        width: 100%;
+        margin-top: 2%;
+        color: rgba(256, 256, 256, 0.8);
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.09375vw;
+    }
+
+    .bold {
+        padding: 0;
+        margin: 0;
+        color: white;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 1.09375vw;
+    }
+
+    .margin-o {
+        margin: 0;
+    }
+
+    .text-modify {
+        padding: 0;
+        margin: 0;
+        align-self: flex-end;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .structre-description {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nekevah {
+        width: 60%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .structre-img {
+        display: flex;
+        margin-top: -15%;
+    }
+
+    .nekevah-icons {
+        width: 60%;
+        height: 100%;
+        padding: 0;
+        margin-top: 10%;
+        margin-left: -11%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon-link-ps {
+        width: 20.43%;
+        margin-left: 5%;
+        line-height: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .structre-general {
+        width: 80%;
+        height: 100%;
+        margin-top: 10%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .structre-title {
+        width: 100%;
+        height: 20%;
+        margin-bottom: 5%;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .structre-title-subs {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        color: rgba(256, 256, 256, 0.8);
+        font-size: 3.19715vw;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .text {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    .structre-img-icon {
+        width: 100%;
+        height: 100%;
+    }
+
+    .structre-subtitle {
+        width: 100%;
+        height: 80%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .text-structre {
+        width: 100%;
+        margin-top: 2%;
+        color: rgba(256, 256, 256, 0.8);
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3.73001vw;
+    }
+
+    .bold {
+        padding: 0;
+        margin-bottom: 5%;
+        color: white;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 3.73001vw;
+    }
+
+    .margin-o {
+        margin: 0;
+    }
+
+    .text-modify {
+        padding: 0;
+        margin: 0;
+        align-self: flex-end;
+    }
+}

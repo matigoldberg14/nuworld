@@ -1,0 +1,291 @@
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 769px) {
+    .desktop-top {
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    .desktop-menu {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buysoon-now {
+        display: none;
+    }
+
+    .navbar {
+        width: 20%;
+        margin-left: 2%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-header {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .section-buttons {
+        padding-left: 1%;
+        padding-right: 1%;
+        margin: 0;
+        width: 65%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .list-buttons {
+        width: 100%;
+        height: 100%;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+
+    .icons-buttons {
+        width: 35%;
+        padding: 0;
+        margin-right: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icons-list-header {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .icon-link-header {
+        width: 20.43%;
+        margin-right: 5%;
+        line-height: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buysoon {
+        width: 50%;
+        margin-right: 4%;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buysoon-link {
+        width: 100%;
+        line-height: 140%;
+        border-radius: 50px;
+        background-color: #45bee7;
+        color: white;
+        font-family: 'Progress-Personal-Use';
+        font-size: 1.875vw;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buysoon-link:hover {
+        color: #45bee7;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-top-false {
+        width: 100%;
+        height: 24vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    .mobile-top-true {
+        width: 100%;
+        height: 24vw;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    .navbar {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-header {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .logo-link {
+        width: 92.44%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .menu-icon {
+        width: 30%;
+        height: 100%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: white;
+        font-size: 6.25vw;
+    }
+
+    .mobile-menu-true {
+        width: 100%;
+        position: absolute;
+        top: 24vw;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #414141;
+        border-top: 1px solid rgba(256, 256, 256, 0.38883599638938904);
+        border-bottom: 1px solid rgba(256, 256, 256, 0.38883599638938904);
+        z-index: 999;
+    }
+
+    .section-buttons,
+    .icons-buttons {
+        display: none;
+    }
+
+    .section-buttons-active {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .list-buttons {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .icons-buttons-active {
+        margin-top: 5%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icons-list-header {
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .icon-link-header {
+        width: 15%;
+        line-height: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buysoon {
+        width: 90%;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buysoon-now {
+        width: 45%;
+        border-radius: 50px;
+        position: fixed;
+        bottom: 3%;
+        right: 3%;
+    }
+
+    .buysoon-link {
+        width: 100%;
+        line-height: 145%;
+        border-radius: 50px;
+        background-color: #45bee7;
+        color: white;
+        font-family: 'Progress-Personal-Use';
+        font-size: 7.52575vw;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

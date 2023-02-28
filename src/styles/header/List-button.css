@@ -1,0 +1,44 @@
+@media screen and (min-width: 769px) {
+    .list-item {
+        display: flex;
+        align-items: center;
+    }
+
+    .list-button {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.09375vw;
+        text-decoration: none;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-button:hover {
+        color: #45bee7;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .list-item {
+        width: 90%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border-bottom: 1px solid rgba(256, 256, 256, 0.38883599638938904);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .list-button {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 4.375vw;
+        text-decoration: none;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-button:hover {
+        color: #45bee7;
+    }
+}

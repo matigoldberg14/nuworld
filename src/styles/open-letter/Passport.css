@@ -1,0 +1,174 @@
+@media screen and (min-width: 769px) {
+    .voluntarios-ext {
+        width: 80%;
+        height: 100%;
+        padding: 1%;
+        margin-bottom: 5%;
+        margin-right: 0;
+        background-color: rgba(111, 111, 111, 0.38883599638938904);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .voluntarios {
+        width: 100%;
+        height: 100%;
+        border-color: white;
+        border-style: solid;
+        border-width: 0.15675vw;
+        display: flex;
+        align-items: center;
+    }
+
+    .voluntarios-description {
+        width: 90%;
+        color: white;
+        margin-left: 3%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        text-align: left;
+    }
+
+    .voluntarios-title {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .ten-olamite {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .ten-thousand {
+        font-family: 'War-Is-Over';
+        font-size: 5.46875vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .passports {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 4.296875vw;
+        font-family: 'Progress-Personal-Use';
+        line-height: 75%;
+    }
+
+    .voluntarios-text {
+        width: 80%;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        font-size: 1.09375vw;
+    }
+
+    .voluntarios-passport {
+        margin-top: -10%;
+        margin-bottom: -10%;
+        margin-right: -5%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .passport-img {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .voluntarios-ext {
+        width: 75%;
+        height: 100%;
+        padding: 2%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-color: rgba(111, 111, 111, 0.38883599638938904);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .voluntarios {
+        width: 100%;
+        height: 100%;
+        border-color: white;
+        border-style: solid;
+        border-width: 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .voluntarios-description {
+        width: 90%;
+        margin-top: 2%;
+        color: white;
+        text-align: left;
+    }
+
+    .voluntarios-title {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .ten-olamite {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .ten-thousand {
+        font-family: 'War-Is-Over';
+        font-size: 10.12432vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .passports {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 8.52575vw;
+        font-family: 'Progress-Personal-Use';
+        line-height: 75%;
+    }
+
+    .voluntarios-text {
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        font-size: 3.73001vw;
+    }
+
+    .voluntarios-passport {
+        margin-top: -5%;
+        margin-bottom: -15%;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .passport-img {
+        width: 90vw;
+    }
+}

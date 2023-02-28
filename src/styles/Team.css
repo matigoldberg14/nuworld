@@ -1,0 +1,263 @@
+@media screen and (min-width: 769px) {
+    .team {
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .team-body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-title {
+        color: white;
+        font-family: 'Progress-Personal-Use';
+        font-size: 4.6875vw;
+        margin-top: 0;
+        padding: 0;
+        font-weight: lighter;
+    }
+
+    .team-personal {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .personal-list {
+        margin-top: 0;
+        margin-bottom: 2%;
+        padding: 0;
+        width: 90%;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .person {
+        width: 20%;
+        padding: 2%;
+        text-align: center;
+    }
+
+    .person:hover {
+        width: 25%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .person-img {
+        margin: 0;
+        padding: 0;
+        border-radius: 100%;
+    }
+
+    .person-title {
+        margin-bottom: 0;
+        padding: 0;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 1.40625vw;
+    }
+
+    .person-role {
+        padding: 0;
+        color: #f5f5f5;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.78125vw;
+    }
+
+    .modal {
+        height: 45vh;
+        padding: 2%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        border-color: white;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .modal-section {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .modal-dialog {
+        width: 60%;
+        padding: 1%;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        outline: none;
+        background-color: #000;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(36, 39, 43, 0.8);
+        backdrop-filter: blur(10px);
+    }
+
+    .modal-img-section {
+        width: 26%;
+        height: 70%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .modal-img {
+        border-radius: 100%;
+    }
+
+    .modal-description-section {
+        width: 60%;
+        height: 70%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .modal-title {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 1.5625vw;
+    }
+
+    .modal-role {
+        margin-left: 2%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        padding: 0;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.171875vw;
+    }
+
+    .separator {
+        display: flex;
+        margin-bottom: 5%;
+        background-color: white;
+        color: white;
+        width: 100%;
+        height: 1px;
+        border: none;
+    }
+
+    .modal-description {
+        padding: 0;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.09375vw;
+    }
+
+    .modal-close {
+        height: 100%;
+        display: flex;
+        justify-self: flex-end;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .close-icon {
+        color: white;
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .team {
+        width: 100%;
+        height: 50vh;
+        z-index: 1;
+    }
+
+    .team-body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .team-title {
+        color: white;
+        font-family: 'Progress-Personal-Use';
+        font-size: 10.12432vw;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .team-personal {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 2%;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .person {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .person-img {
+        margin: 0;
+        padding: 0;
+        border-radius: 100%;
+    }
+
+    .person-title {
+        margin-bottom: 0;
+        padding: 0;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 4.26288vw;
+    }
+
+    .person-role {
+        padding: 0;
+        color: #f5f5f5;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3.19715vw;
+    }
+}
